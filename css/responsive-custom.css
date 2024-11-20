@@ -1,0 +1,13 @@
+.page-title-heading{
+    color: #343131 !important;
+}
+@media(max-width: 900px)
+{
+    .page-sideheadings{
+        font-size: 1.2rem !important;
+        color: #343131 !important;
+    }
+    .page-sidesubheadings{
+        font-size: 1.1rem !important;
+    }
+}

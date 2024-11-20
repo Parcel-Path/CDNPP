@@ -1,0 +1,401 @@
+.d-overlay{
+    z-index: 100!important;
+}
+#dialog-form,
+#shipsurance-details-modal,
+#shopifyModal,
+#etsyModal,
+#wixModal,
+#shopifyDimensionModal,
+#add-referral,
+#referral-details-modal,
+#shopifyEditDataModal,
+#shopifyServiceMappingModal,
+#modifyPackagingModal,
+#moreFiltersModal,
+#edit-markup,
+#edit-shipsurance-charges,
+#add-manual-transaction,
+#add-adjustment-note,
+#reset-password-modal,
+#edit-client-markup,
+#view-bulk-shipments,
+#terms_conditions_popup,
+#terms,
+#add-card,
+#add-bank-account,
+#verify-bank-modal,
+#addressModal{ 
+    display: none; 
+    overflow: hidden;
+}
+#dialog-form .form-group label,
+#dialog-form .form-group input,
+#dialog-form .form-group select,
+#add-referral .form-group label,
+#add-referral .form-group input,
+#add-referral .form-group select,
+#shopifyEditDataModal .form-group label,
+#shopifyEditDataModal .form-group input,
+#shopifyEditDataModal .form-group select,
+#modifyPackagingModal .form-group label,
+#modifyPackagingModal .form-group input,
+#modifyPackagingModal .form-group select,
+#shopifyServiceMappingModal .form-group label,
+#shopifyServiceMappingModal .form-group input,
+#shopifyServiceMappingModal .form-group select,
+#edit-markup .form-group label,
+#edit-markup .form-group input,
+#edit-markup .form-group select,
+#edit-shipsurance-charges .form-group label,
+#edit-shipsurance-charges .form-group input,
+#edit-shipsurance-charges .form-group select,
+#add-manual-transaction .form-group label,
+#add-manual-transaction .form-group input,
+#add-manual-transaction .form-group select
+#add-adjustment-note .form-group label,
+#add-adjustment-note .form-group input,
+#add-adjustment-note .form-group select,
+#reset-password-modal .form-group label,
+#reset-password-modal .form-group input,
+#reset-password-modal .form-group select,
+#edit-client-markup .form-group label,
+#edit-client-markup .form-group input,
+#edit-client-markup .form-group select,
+#view-bulk-shipments .form-group label,
+#view-bulk-shipments .form-group input,
+#view-bulk-shipments .form-group select,
+#terms_conditions_popup .form-group label,
+#terms_conditions_popup .form-group input,
+#terms_conditions_popup .form-group select ,
+#terms .form-group label,
+#terms .form-group input,
+#terms .form-group select{
+    font-family: "Poppins", sans-serif;
+    color: #5b626b;
+}
+.alert{
+    font-family: "Poppins", sans-serif;
+}
+#create-user:focus{
+    color: white;
+    box-shadow: none;
+}
+.userWallet-dialog,
+.package-dialog,
+.add-referral-dialog,
+.referral-details-dialog,
+.shopifyEdit-dialog,
+.shopifyServiceMapping-dialog,
+.shopifyShipmentEdit-dialog,
+.editMarkup-dialog,
+.addManualTransaction-dialog,
+.terms_conditions-dialog,
+.modifyPackaging-dialog,
+.verifyBank-dialog
+{
+    z-index: 999!important;
+    width: 800px!important;
+}
+.terms-dialog{
+    position: fixed!important;
+    z-index: 999!important;
+    width: 778px!important;
+}
+.terms-dialog .ui-dialog-titlebar  .ui-dialog-title{
+        font-size: 17px;
+        margin: 1.8em 0.75em;
+}
+.terms-dialog .ui-dialog-titlebar  .icon_ups{
+    width: 75px;
+}
+.terms-dialog .ui-dialog-titlebar  .icon_ups{
+    width: 75px;
+}
+.terms-dialog .ui-dialog-titlebar{
+    padding: 0.25rem 0.75rem!important;
+}
+
+.terms-dialog .ui-dialog-content .terms-content .terms-text #agree_terms{
+    margin-right: 4px;
+}
+.terms-dialog .ui-dialog-content .agree-continue{
+    text-align: center;
+	display: block;
+}
+#AgreeContinue:hover:disabled,
+#PromoContinue:hover:disabled{
+    background-color: grey;
+    border: 1px solid grey;
+}
+#prohibited_rules:focus,
+#agree_terms:focus{
+    color: white;
+    outline: none;
+    box-shadow: none;
+}
+.verifyBank-dialog{
+    top: 3%!important;
+}
+.viewBulkShipment-dialog{
+    padding: 0!important;
+    z-index: 999!important;
+    max-width: 98%;
+    width: auto !important;
+    left: 30px !important;
+    right: 30px !important;
+    top: 2%!important;
+}
+.viewBulkShipment-dialog .ui-dialog-titlebar{
+    padding: 10px!important;
+}
+.viewBulkShipment-dialog #view-bulk-shipments{
+    padding: 10px!important;
+}
+.addAdjustmentNote-dialog,
+.clientChangePassword-dialog,
+.clientEditMarkup-dialog{
+    z-index: 999!important;
+    width: 500px!important;
+}
+.package-dialog .ui-dialog-content{
+    padding: 0.5em 0em 0em 0em;
+}
+.shopify-dialog .ui-dialog-buttonpane{
+    padding: 0.5rem 1rem!important;
+    border-top: 1px solid #dee2e6;
+}
+.shopify-dialog #frmConnectShopify, 
+.shopify-dialog #frmModifyShopifyDimension,
+#shopifyServiceMappingModal,
+#shopifyEditDataModal{
+    padding-bottom: 1rem;
+}
+.referral-details-dialog .ui-dialog-content{
+    padding: 0.5em 0em 0em 0em;
+    color: #5b626b;
+}
+.shopifyEdit-dialog,
+.modifyPackaging-dialog,
+.shopifyShipmentEdit-dialog{
+    top: 120px!important;
+}
+.shopifyEdit-dialog .ui-dialog-buttonpane,
+.modifyPackaging-dialog .ui-dialog-buttonpane,
+.shopifyServiceMapping-dialog .ui-dialog-buttonpane,
+.shopifyShipmentEdit-dialog .ui-dialog-buttonpane{
+    padding: 0.5rem;
+    border-top: 1px solid #dee2e6;
+}
+.shopifyServiceMapping-dialog{
+    top: 80px!important;
+}
+.modal-body{
+    padding: 0!important;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+background: url("../images/ui-icons/ui-icons_444444_256x240.png") repeat scroll -93px -128px rgba(0, 0, 0, 0)!important;
+}
+.ui-dialog .ui-dialog-titlebar-close:hover{
+background:  url("../images/ui-icons/ui-icons_555555_256x240.png") repeat scroll -93px -128px rgba(0, 0, 0, 0);
+}
+.moreFilters-dialog{
+    width: 400px!important;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .package-dialog,
+    .terms_conditions-dialog,
+    .terms-dialog{
+        width: auto!important;
+        left: 20px!important;
+        right: 20px!important;
+    }
+    .shopify-dialog{
+        top: 75px!important;
+        width: 300px!important;
+    }
+    .moreFilters-dialog{
+        width: 300px!important;
+    }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .userWallet-dialog{
+        width: auto!important;
+    }
+    .add-referral-dialog,
+    .shopifyEdit-dialog,
+    .modifyPackaging-dialog,
+    .shopifyServiceMapping-dialog,
+    .shopifyShipmentEdit-dialog,
+    .editMarkup-dialog,
+    .terms_conditions-dialog,
+    .verifyBank-dialog,
+    .terms-dialog{
+        width: auto!important;
+        left: 15px!important;
+        right: 15px!important;
+    }
+    .referral-details-dialog,
+    .addManualTransaction-dialog{
+        width: auto!important;
+        left: 20px!important;
+        right: 20px!important;
+        top: 85px!important;
+    }
+    .addAdjustmentNote-dialog,
+    .clientChangePassword-dialog,
+    .clientEditMarkup-dialog{
+        width: auto!important;
+        left: 20px!important;
+        right: 20px!important;
+        top: 275px!important;
+    }
+    .moreFilters-dialog{
+        width: 300px!important;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .package-dialog,
+    .terms_conditions-dialog,
+    .verifyBank-dialog,
+    .terms-dialog{
+        width: auto!important;
+        left: 20px!important;
+        right: 20px!important;
+    }
+    .shopify-dialog,
+    .addManualTransaction-dialog{
+        top: 75px!important;
+        width: 400px!important;
+    }
+    .addAdjustmentNote-dialog{
+        top: 75px!important;
+        width: 300px!important;
+    }
+    .clientChangePassword-dialog{
+        width: 400px!important;
+        top: 150px!important;
+        left: 45px!important
+    }
+    .moreFilters-dialog{
+        width: 300px!important;
+    }
+}
+@media (min-width: 768px) and (max-width: 824px) {
+    #wallet-table_filter label input,
+    #approve-referrals-table_filter label input,
+    #client-referrals-table_filter label input{
+        width: 110px;
+    }
+    .userWallet-dialog,
+    .package-dialog,
+    .add-referral-dialog,
+    .shopifyEdit-dialog,
+    .modifyPackaging-dialog,
+    .shopifyServiceMapping-dialog,
+    .shopifyShipmentEdit-dialog,
+    .addManualTransaction-dialog,
+    .verifyBank-dialog{
+        width: 500px!important;
+    }
+    .addManualTransaction-dialog{
+        top: 100px!important;
+    }
+    .referral-details-dialog,
+    .clientEditMarkup-dialog{
+        width: 700px!important;
+        top: 100px!important;
+    }
+    .clientChangePassword-dialog{
+        width: 600px!important;
+        top: 150px!important;
+        left: 80px!important
+    }
+    .terms_conditions-dialog,
+    .terms-dialog{
+        width: 700px!important;
+        left: 35px!important;
+        right: 35px!important;
+    }
+    .moreFilters-dialog{
+        width: 300px!important;
+    }
+}
+@media (min-width: 824px) and (max-width: 924px){
+    .userWallet-dialog,
+    .package-dialog,
+    .add-referral-dialog,
+    .referral-details-dialog,
+    .shopifyEdit-dialog,
+    .modifyPackaging-dialog,
+    .shopifyServiceMapping-dialog,
+    .shopifyShipmentEdit-dialog,
+    .editMarkup-dialog,
+    .addManualTransaction-dialog,
+    .clientEditMarkup-dialog,
+    .verifyBank-dialog{
+        width: 600px!important;
+    }
+    #wallet-table_filter label input,
+    #approve-referrals-table_filter label input,
+    #client-referrals-table_filter label input{
+        width: 128px;
+    }
+    .referral-details-dialog,
+    .addManualTransaction-dialog,
+    .clientEditMarkup-dialog{
+        top: 80px!important;
+    }
+    .terms_conditions-dialog,
+    .terms-dialog{
+        width: 700px!important;
+        left: 55px!important;
+        right: 55px!important;
+    }
+    .moreFilters-dialog{
+        width: 400px!important;
+    }
+}
+@media (min-width: 925px) and (max-width: 974px){
+    #wallet-table_filter label input,
+    #client-referrals-table_filter label input,
+    #approve-referrals-table_filter label input{
+        width: 165px;
+    }
+    .referral-details-dialog,
+    .addManualTransaction-dialog{
+        top: 80px!important;
+    }
+    .shopifyEdit-dialog,
+    .modifyPackaging-dialog,
+    .shopifyServiceMapping-dialog,
+    .shopifyShipmentEdit-dialog,
+    .referral-details-dialog,
+    .add-referral-dialog,
+    .package-dialog,
+    .userWallet-dialog,
+    .editMarkup-dialog,
+    .addManualTransaction-dialog,
+    .verifyBank-dialog{
+        width: 700px!important;
+    }
+    .moreFilters-dialog{
+        width: 400px!important;
+    }
+}
+@media (min-width: 975px) and (max-width: 1200px){ 
+    #wallet-table_filter label input,
+    #client-referrals-table_filter label input,
+    #approve-referrals-table_filter label input
+    {
+        width: 165px;
+    }
+    .referral-details-dialog,
+    .addManualTransaction-dialog{
+        top: 80px!important;
+        width: 700px!important;
+    }
+    .moreFilters-dialog{
+        width: 400px!important;
+    }
+}
